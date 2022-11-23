@@ -69,3 +69,56 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.container >div {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.col-form-label {
+  border-top: 1px dashed black;
+  border-right: 1px solid black;
+}
+
+.btn {
+  border-radius: 0 15% 15% 0;
+  background: #3dacd4;
+}
+.timeboxes {
+  margin: auto;
+}
+
+.textbox1 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+  font-size: 14pt;
+  background-color: lightgray;
+}
+
+.btn {
+  background-color: RoyalBlue;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  color: white;
+  padding: 30px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: Blue;
+}
+
+/*
+.hour1 {
+  display: flex;
+  align-items: center;
+}*/
