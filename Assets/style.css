@@ -115,8 +115,10 @@ textarea {
   background-color: lightgray;
 }
 
-/*
-.hour1 {
+
+.prompt {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   display: flex;
   align-items: center;
-}*/
+}
