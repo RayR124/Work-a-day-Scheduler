@@ -38,54 +38,98 @@ function saveHour1() {
 function saveHour2() {
     let textbox2 = document.querySelector(".textbox2");
     window.localStorage.setItem("10:00AM", textbox2.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour3() {
     let textbox3 = document.querySelector(".textbox3");
     window.localStorage.setItem("11:00AM", textbox3.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour4() {
     let textbox4 = document.querySelector(".textbox4");
     window.localStorage.setItem("12:00PM", textbox4.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour5() {
     let textbox5 = document.querySelector(".textbox5");
     window.localStorage.setItem("1:00PM", textbox5.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour6() {
     let textbox6 = document.querySelector(".textbox6");
     window.localStorage.setItem("2:00PM", textbox6.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour7() {
     let textbox7 = document.querySelector(".textbox7");
     window.localStorage.setItem("3:00PM", textbox7.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour8() {
     let textbox8 = document.querySelector(".textbox8");
     window.localStorage.setItem("4:00PM", textbox8.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour9() {
     let textbox9 = document.querySelector(".textbox9");
     window.localStorage.setItem("5:00PM", textbox9.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour10() {
     let textbox10 = document.querySelector(".textbox10");
     window.localStorage.setItem("6:00PM", textbox10.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour11() {
     let textbox11 = document.querySelector(".textbox11");
     window.localStorage.setItem("7:00PM", textbox11.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
 
 function saveHour12() {
     let textbox12 = document.querySelector(".textbox12");
     window.localStorage.setItem("8:00PM", textbox12.value);
+    prompt1.classList.remove("hidden");
+    setTimeout(function() {
+        prompt1.classList.add("hidden");
+    }, 3000);
 };
