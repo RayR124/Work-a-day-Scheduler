@@ -86,23 +86,9 @@ textarea {
   border-right: 1px solid black;
 }
 
-.btn {
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10, .btn11, .btn12 {
   border-radius: 0 15% 15% 0;
   background: #3dacd4;
-}
-.timeboxes {
-  margin: auto;
-}
-
-.textbox1 {
-  border: 1px solid black;
-  height: 100px;
-  width: 100%;
-  font-size: 14pt;
-  background-color: lightgray;
-}
-
-.btn {
   background-color: RoyalBlue;
   border: 1px solid black;
   height: 100px;
@@ -113,8 +99,20 @@ textarea {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn10:hover, .btn11:hover, .btn12:hover {
   background-color: Blue;
+}
+
+.timeboxes {
+  margin: auto;
+}
+
+.textbox1, .textbox2, .textbox3, .textbox4, .textbox5, .textbox6, .textbox7, .textbox8, .textbox9, .textbox10, .textbox11, .textbox12 {
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+  font-size: 14pt;
+  background-color: lightgray;
 }
 
 /*
