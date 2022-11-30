@@ -13,7 +13,7 @@ const btn12 = document.querySelector(".btn12");
 let text = document.querySelector(".text");
 let prompt1 = document.querySelector(".prompt");
 
-// slot in the current date and time to the HTML
+// slot in the current date and time to the HTML.
 let date = new Date();
 let hour = date.getHours();
 
