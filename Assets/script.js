@@ -13,6 +13,11 @@ const btn12 = document.querySelector(".btn12");
 let text = document.querySelector(".text");
 let prompt1 = document.querySelector(".prompt");
 
+let date = new Date();
+let hour = date.getHours();
+
+document.getElementById('date-time').innerHTML=date;
+
 btn1.addEventListener("click", saveHour1);
 btn2.addEventListener("click", saveHour2);
 btn3.addEventListener("click", saveHour3);
