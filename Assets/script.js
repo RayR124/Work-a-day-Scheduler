@@ -13,6 +13,7 @@ const btn12 = document.querySelector(".btn12");
 let text = document.querySelector(".text");
 let prompt1 = document.querySelector(".prompt");
 
+// slot in the current date and time to the HTML
 let date = new Date();
 let hour = date.getHours();
 
@@ -31,6 +32,7 @@ btn10.addEventListener("click", saveHour10);
 btn11.addEventListener("click", saveHour11);
 btn12.addEventListener("click", saveHour12);
 
+//  the following 12 functions save the text entries to local storage under their respective hours.
 function saveHour1() {
     let textbox1 = document.querySelector(".textbox1");
     window.localStorage.setItem("9:00AM", textbox1.value);
